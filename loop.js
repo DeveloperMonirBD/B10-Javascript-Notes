@@ -62,3 +62,30 @@ while (n < numbers.length) {
   // console.log(numbers[n])
   n++
 }
+
+//loop :
+const x = [1, 2, 3, 4, 5, 6, 7, 8];
+
+//break:
+// for (let i = 0; i < x.length; i++) {
+//   if (x[i] === 5) {
+//     break;
+//   }
+//   console.log(x[i])
+// }
+
+//continue number:
+// for (let i = 0; i < x.length; i++) {
+//   if (x[i] === 5) {
+//     continue;
+//   }
+//   console.log(x[i]);
+// }
+
+//continue index:
+for (let i = 0; i < x.length; i++) {
+  if (i === 5) {
+    continue;
+  }
+  console.log(i);
+}

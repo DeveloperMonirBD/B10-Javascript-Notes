@@ -7,12 +7,12 @@
 // const subject = ['Bangla', 'English', 'Physics', 'Math']
 
 const person = {
-  name: 'Md. Monirul Islam',
-  age: 25,
-  profession: 'developer',
-  salary: 25000,
-  married: false
-}
+    name: 'Md. Monirul Islam',
+    age: 25,
+    profession: 'developer',
+    salary: 25000,
+    married: false
+};
 
 //dot notation: dot symbol diya object er property er value access kora.
 // console.log(person.profession)
@@ -20,7 +20,6 @@ const person = {
 //bracked notation: third bracket diya object er property er value access kora.
 // console.log(person['age']);
 // console.log(person['salary']);
-
 
 //keys:
 // const computer = {
@@ -33,7 +32,7 @@ const person = {
 // const keys = Object.keys(computer);
 // console.log(keys);
 
-// values: 
+// values:
 const computer = {
     brand: 'lenovo',
     price: 35000,
@@ -42,5 +41,21 @@ const computer = {
 };
 
 const values = Object.values(computer);
-console.log(values)
+// console.log(values)
 
+//Object:-
+const identity = {
+    name: 'Monir',
+    address: 'Jashore.'
+};
+//delete obj item:-
+// delete identity.name;
+
+//add item in Obj:
+identity.contact = 'mrmonir0558@gmail.com';
+//change item in Obj:
+identity.name = 'Rafin';
+
+console.log(identity);
+console.log(identity.name);
+console.log(identity.address);
