@@ -21,17 +21,18 @@
 //     c: 3
 // };
 
+// req:3
 // for (let prop in myObject) {
 //     console.log(myObject[prop]);
 // }
 
-// req: 3
+// req: 4
 // var person = {};
 // person.name = 'John';
 // person.age = 30;
 // console.log(person)
 
-// req: 4
+// req: 5
 // const x = '';
 // if (!x.length) {
 //     console.log('Hey');
@@ -39,7 +40,7 @@
 //     console.log('Hi');
 // }
 
-//req: 5
+//req: 6
 const str = 'Hello';
 str[0] = 'h';
 console.log(str);

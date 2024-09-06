@@ -83,9 +83,26 @@ const x = [1, 2, 3, 4, 5, 6, 7, 8];
 // }
 
 //continue index:
-for (let i = 0; i < x.length; i++) {
-  if (i === 5) {
-    continue;
-  }
-  console.log(i);
+// for (let i = 0; i < x.length; i++) {
+//   if (i === 5) {
+//     continue;
+//   }
+//   console.log(i);
+// }
+
+
+
+// for (let number = 0; number <= 10; number++) {
+//   if (number == 5) {
+//     break;
+//   }
+//   console.log(number);
+// }
+
+
+let squirrels = 39;
+if (squirrels > 40 && squirrels < 60) {
+    console.log('true');
+} else {
+    console.log('false');
 }
