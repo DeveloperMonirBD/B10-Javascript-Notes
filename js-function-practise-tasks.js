@@ -101,3 +101,39 @@ function oddAverage(numbers) {
 const numbers = [42, 13, 58, 65, 81, 96, 7];
 const avg = oddAverage(numbers);
 console.log('Average of the odd numbers is: ' + avg);
+
+//Another Process:- ### Task- 6
+// const numbers = [6, 4, 3, 7, 23, 54, 65, 75, 24, 12];
+// function oddAverage(numbers) {
+//     let odd = [];
+//     let sum = 0;
+//     for (const number of numbers) {
+//       if (number % 2 !== 0) {
+//         odd.push(number);
+//         sum += number;
+//       }
+//   }
+//   let avg = sum / odd.length;
+//   return avg;
+// }
+
+// ### Task-7
+/**
+ * array has some duplicate elements
+ * []
+ */
+
+const names = ['monir', 'ashif', 'sahir', 'monir', 'rafi', 'sahir', 'hasnat', 'nahid', 'hasnat'];
+
+function noDublicate(array) {
+    const unique = [];
+    for (const item of array) {
+        if (unique.includes(item) === false) {
+            unique.push(item);
+        }
+    }
+    return unique;
+}
+
+const uniqueArray = noDublicate(names);
+console.log(uniqueArray);
