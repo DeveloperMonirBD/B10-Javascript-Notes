@@ -56,6 +56,22 @@ identity.contact = 'mrmonir0558@gmail.com';
 //change item in Obj:
 identity.name = 'Rafin';
 
-console.log(identity);
-console.log(identity.name);
-console.log(identity.address);
+// console.log(identity);
+// console.log(identity.name);
+// console.log(identity.address);
+
+
+const student = {
+    name: 'Sakib Khan',
+    id: 121,
+    address: 'movie cinema',
+    isSingle: true,
+    friends: ['Apu', 'Raaz', 'Salman', 'Amir'],
+    car: {
+        brand: 'Tesla',
+        price: 50000000,
+        model: 2025
+    }
+}
+
+console.log(student.car.price)
